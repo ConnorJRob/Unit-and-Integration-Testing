@@ -7,7 +7,6 @@ configure({adapter: new Adapter()});
 
 describe('Calculator', () => {
   let container;
-  let equals;
   beforeEach(() => {
     container = mount(<Calculator/>)
   })
